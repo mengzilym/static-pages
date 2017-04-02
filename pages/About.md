@@ -3,7 +3,9 @@ date: 2017-03-29
 id: 0
 
 
-这个小小的“网站”是学习`Flask-FlatPages`的一个练习项目。
+本“项目”是一个基于`Flask`的“静态页面”网站。
+
+主要是学习`Flask-FlatPages`和`Frozen-Flask`的一个练习项目。
 
 想要达到的效果：
 
