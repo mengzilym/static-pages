@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Static Pages for Markdown Files</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('pygments_css') }}">
+</head>
+<body>
+    <div class="banner">
+        <h2>2025 : A space odyssey</h2>
+    </div>
+    <div class="nav-article">
+        <div class="left-nav">
+            {% block sidenav %}{% endblock %}
+        </div>
+        <div class="right-article">
+            {% block content %}{% endblock %}
+            <div class="footer">
+                <p>An epic drama of adventure and exploration.</p>
+                <p>Powered by <a href="http://flask.pocoo.org/">Flask</a></p>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>

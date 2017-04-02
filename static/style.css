@@ -1,0 +1,105 @@
+html, body  {margin: 0px; padding: 0px;}
+div         {display: block;}
+.clear      {clear: both;}
+a, li       {text-decoration: none; color: black;}
+a.active    {background-color: #0b698b; color: white;}
+
+
+.banner {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 55px;
+    background-color: #24292e;
+    color: white;
+    z-index: 999;
+}
+.banner h2 {
+    margin-left: 10%;
+    margin-top: 0px;
+    padding: 0px;
+    line-height: 55px;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+
+.nav-article {
+    margin-top: 55px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.left-nav {
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    overflow-y: auto;
+    /*border-right: 1px solid #b0b0b0;*/
+    background-color: #f0f0f0;
+}
+.left-nav .pagelist {
+    padding: 0px;
+    padding-bottom: 80px;
+    margin: 0px;
+}
+.left-nav .pagelist ul {
+    list-style-type: none;
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+}
+.left-nav .pagelist li {
+    font-size: 0.8em;
+    margin: 0px;
+}
+.left-nav .pagelist li a {
+    display: block;
+    margin: 0px;
+    padding: 8px 5px 8px 20px;
+    transition: background-color 0.1s;
+}
+.left-nav .pagelist li a:hover:not(.active) {
+    background-color: #d8d8d8;
+}
+
+
+.right-article {
+    width: 65%;
+    margin-left: 30%;
+    padding: 5px;
+}
+.article {
+    text-align: justify;
+}
+.article .title {
+    border-bottom: 1px solid #b0b0b0;
+}
+.article .content {
+    line-height: 180%;
+    font-size: 15px;
+}
+
+
+.footer {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #b0b0b0;
+    text-align: center;
+    font-size: 0.75em;
+    color: #888888;
+}
+.footer p {
+    display: inline;
+}
+.footer p a {
+    color: blue;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #d8d8d8;
+}
+
