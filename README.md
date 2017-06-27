@@ -11,3 +11,5 @@
     - [ ] 管理员登录
     - [ ] 删除文章
     - [ ] 上传新文章
+
+![截图](https://raw.githubusercontent.com/mengzilym/static-pages/master/pics/page1.jpg)
